@@ -51,6 +51,35 @@ var geoJson = [{
       }, {
         "type": "Feature",
         "properties": {
+          "title": "Jazz music",
+          "marker-size": "medium",
+          "marker-color": "#e5c278",
+          "marker-symbol": "star-stroked",
+          "images": [
+            [
+              '<iframe width="180"  src="http://www.youtube.com/embed/cklBBshc_uQ?rel=0" frameborder="0" allowfullscreen></iframe>',
+              "A tour of the Reichstag building."
+            ],
+            [
+              '<img src="images/quasimodo_berlin.jpg" />',
+              "Quasimodo - jazz club."
+            ],
+            [
+              '<img src="images/Howard_McGhee,_Brick_Fleagle_and_Miles_Davis,_ca_September_1947_(Gottlieb).jpg" />',
+              "Howard McGhee, Brick Fleagle, Miles Davis circa September 1947."
+            ]
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            "13.328408",
+            "52.506016"
+          ]
+        }
+        }, {
+        "type": "Feature",
+        "properties": {
             "title": "Siegessaule",
             "marker-size": "medium",
             "marker-color": "#3366FF",
@@ -77,7 +106,7 @@ var geoJson = [{
               "marker-symbol": "star-stroked",
               "images": [
                   ['<img src="images/Bundesarchiv_B_145_Bild-F001298-0004,_Berlin,_Flughafen_Tempelhof.jpg" />',
-                      "Berlin, Flughafen Tempelhof. Brodde. From Bundesarchiv, B 145 Bild-F001298-0004."
+                      "Berlin, Flughafen Tempelhof. Brodde."
                   ]
               ]
           },
@@ -97,7 +126,7 @@ var geoJson = [{
                 "marker-symbol": "star-stroked",
                 "images": [
                     ['<img src="images/800px-Humboldthain.jpg" />',
-                        "Flakturm III, G Tower. From Benutzer:Richardfabi."
+                        "Flakturm III, G Tower."
                     ]
                 ]
             },
@@ -108,5 +137,25 @@ var geoJson = [{
                     "52.547238"
               ]
             }
-            }]
+            }, {
+              "type": "Feature",
+              "properties": {
+                  "title": "Führerbunker",
+                  "marker-size": "medium",
+                  "marker-color": "#3366FF",
+                  "marker-symbol": "star-stroked",
+                  "images": [
+                      ['<img src="images/Bundesarchiv_Bild_183-M1204-319,_Berlin,_Reichskanzlei,_gesprengter_Führerbunker.jpg" />',
+                          "Ruins of Hitler's Bunker after demolition in 1947."
+                      ]
+                  ]
+              },
+              "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                      "13.380956",
+                      "52.512503"
+                ]
+              }
+              }]
       }];
