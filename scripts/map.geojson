@@ -9,16 +9,16 @@ var geoJson = [{
           "marker-symbol": "star-stroked",
           "images": [
             [
-              "<iframe width=\"180\" src=\"http://www.youtube.com/embed/CbXLLSi4Lno\" frameborder=\"0\" allowfullscreen><\/iframe>",
-              "Wind Back Time (Instrumental) Jazz 1940's Impressions. Realism12 Productions"
+              "<iframe width=\"180\" src=\"http://www.youtube.com/embed/tReJDdEiNe4\" frameborder=\"0\" allowfullscreen><\/iframe>",
+              "Rex Stewart. 'Linden Blues.' 1947."
             ],
             [
               '<img src="images/quasimodo_berlin.jpg" />',
               "Quasimodo - jazz club."
             ],
             [
-              '<img src="images/Howard_McGhee,_Brick_Fleagle_and_Miles_Davis,_ca_September_1947_(Gottlieb).jpg" />',
-              "Howard McGhee, Brick Fleagle, Miles Davis circa September 1947."
+              '<img src="images/Rex_Stewart_1943.jpg" />',
+              "Rex Stewart, 1943, with Duke Ellington's orchestra."
             ]
           ]
         },
@@ -54,11 +54,14 @@ var geoJson = [{
           "properties": {
               "title": "Platz der Luftbrucke",
               "marker-size": "medium",
-              "marker-color": "#3366FF",
+              "marker-color": "#e5c278",
               "marker-symbol": "star-stroked",
               "images": [
                   ['<img src="images/Bundesarchiv_B_145_Bild-F001298-0004,_Berlin,_Flughafen_Tempelhof.jpg" />',
-                      "Berlin, Flughafen Tempelhof. Brodde."
+                      "Berlin, Flughafen Tempelhof. Brodde. Berlin Air Lift Memorial."
+                  ],
+                  ['<img src="images/Berlin_Children_Playing_Luftbrucke_Game.jpg" />',
+                      "Berlin children playing Luftbrucke game."
                   ]
               ]
           },
