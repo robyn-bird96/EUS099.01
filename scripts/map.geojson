@@ -5,7 +5,7 @@ var geoJson = [{
         "properties": {
           "title": "Jazz music",
           "marker-size": "medium",
-          "marker-color": "#e5c278",
+          "marker-color": "#FF0040",
           "marker-symbol": "star-stroked",
           "images": [
             [
@@ -34,7 +34,7 @@ var geoJson = [{
         "properties": {
             "title": "Siegessaule",
             "marker-size": "medium",
-            "marker-color": "#3366FF",
+            "marker-color": "#FF0040",
             "marker-symbol": "star-stroked",
             "images": [
                 ['<img src="images/Lesser_Ury_Siegesallee_mit_Siegessäule_im_Herbst.jpg" />',
@@ -54,15 +54,19 @@ var geoJson = [{
           "properties": {
               "title": "Platz der Luftbrucke",
               "marker-size": "medium",
-              "marker-color": "#e5c278",
+              "marker-color": "#FF0040",
               "marker-symbol": "star-stroked",
               "images": [
-                  ['<img src="images/Bundesarchiv_B_145_Bild-F001298-0004,_Berlin,_Flughafen_Tempelhof.jpg" />',
+                [
+                  "<iframe width=\"180\" src=\"http://www.youtube.com/embed/fQ30Rgc5Prc\" frameborder=\"0\" allowfullscreen><\/iframe>",
+                  "Berlin Airlift. 1948-49."
+                ],
+                ['<img src="images/Bundesarchiv_B_145_Bild-F001298-0004,_Berlin,_Flughafen_Tempelhof.jpg" />',
                       "Berlin, Flughafen Tempelhof. Brodde. Berlin Air Lift Memorial."
-                  ],
-                  ['<img src="images/Berlin_Children_Playing_Luftbrucke_Game.jpg" />',
+                ],
+                ['<img src="images/Berlin_Children_Playing_Luftbrucke_Game.jpg" />',
                       "Berlin children playing Luftbrucke game."
-                  ]
+                ]
               ]
           },
           "geometry": {
@@ -77,7 +81,7 @@ var geoJson = [{
             "properties": {
                 "title": "Flakturm III at Volkspark Humboldthain",
                 "marker-size": "medium",
-                "marker-color": "#3366FF",
+                "marker-color": "#FF0040",
                 "marker-symbol": "star-stroked",
                 "images": [
                     ['<img src="images/800px-Humboldthain.jpg" />',
@@ -97,7 +101,7 @@ var geoJson = [{
               "properties": {
                   "title": "Führerbunker",
                   "marker-size": "medium",
-                  "marker-color": "#3366FF",
+                  "marker-color": "#FF0040",
                   "marker-symbol": "star-stroked",
                   "images": [
                       ['<img src="images/Bundesarchiv_Bild_183-M1204-319,_Berlin,_Reichskanzlei,_gesprengter_Führerbunker.jpg" />',
